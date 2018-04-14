@@ -1,0 +1,77 @@
+body {
+    background-image: url("../images/ffm_bg04.png");
+    background-repeat: repeat-xy;
+    font: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container {
+    background: white;
+    align-content: center;
+    text-align: center;
+    padding: 30px;
+    margin: auto;
+    width: 50%;
+    border-style: solid;
+    border-color: #ffbd05;
+    border-width: thick;
+}
+
+.header {
+    color: #c03e22;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+#logo {
+    width: 300px;
+    margin-top: 25px;
+}
+
+#title {
+    margin-top: 0px;
+    letter-spacing: -10px;
+    word-spacing: -20px;
+    line-height: 60%;
+}
+
+#time {
+    background: #ffbd05;
+    height: 50px;
+    width: 200px;
+    margin: auto;
+    font-weight: bolder;
+}
+
+#quiz {
+    list-style-type: none;
+    line-height: 25px;
+}
+
+button {
+    font-family: 'Courier New', Courier, monospace;
+    color: #ffbd05;
+    background: #c03e22;
+    padding: 10px 20px;
+    border: none;
+    text-decoration: none;
+    display: inline-block;
+    margin: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+button:hover {
+    background: #ffbd05;
+    color: white;
+}
+
+#restart, #submit {
+    width: 150px;
+}
+
+#footerInfo {
+    text-align: center;
+    padding: 10px;
+    background: #ffbd05;
+}
